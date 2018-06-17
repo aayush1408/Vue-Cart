@@ -5,8 +5,8 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active"><router-link class="nav-link" to="/">Home</router-link></li>
-          <li class="nav-item active"><router-link class="nav-link" to="/admin">Cart</router-link></li>
-          <li class="nav-item active"><router-link class="nav-link" to="/cart">Admin</router-link></li>        
+          <li class="nav-item active"><router-link class="nav-link" to="/cart">Cart</router-link></li>
+          <li class="nav-item active"><router-link class="nav-link" to="/admin">Admin</router-link></li>        
         </ul>
       </div>
     </nav>

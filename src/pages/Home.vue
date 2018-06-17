@@ -75,6 +75,10 @@ img{
   width: 200px;
 }
 h4{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+h5{
+  font-family: 'Courier New', Courier, monospace;
 }
 </style>
