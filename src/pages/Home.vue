@@ -15,8 +15,13 @@
 </template>
 
 <script>
+import NewCard from './Admin/New';
+import {serverBus} from '../main.js'
 export default {
   name: 'Home',
+  components: {
+    NewCard,
+  },
   data () {
     return {
       cards : [
@@ -64,7 +69,25 @@ export default {
       }
       ]
     }
-  }
+  },
+  mounted() {
+  // Using the service bus
+  serverBus.$on('create-card', (card) => {
+   this.addCard(card);
+  });
+ },
+  methods: {
+    addCard(card) {
+      console.log(card);
+      this.cards.push({
+        name:card.cardName,
+        url:card.cardUrl,
+        price:card.cardPrice,
+        type:card.cardType
+      });
+      console.log(this.cards);
+    },
+  },
 }
 </script>
 
