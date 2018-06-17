@@ -27,13 +27,13 @@ export default {
         type:'Monster'
       },
       {
-        name:'Red Eyes Black Dragon ',
+        name:'Red Eyes Black Dragon',
         url:'https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/22341_200w.jpg',
         price:'2000',
         type:'Monster'
       },
         {
-        name:'Blue Eye White Dragon ',
+        name:'Blue Eye White Dragon',
         url:'https://vignette.wikia.nocookie.net/yugioh/images/7/77/BlueEyesWhiteDragon-LCKC-EN-UR-1E.png/revision/latest?cb=20180415030139',
         price:'4000',
         type:'Monster'
@@ -41,6 +41,24 @@ export default {
         {
         name:'Sword Slasher',
         url:'http://qtoptens.com/wp-content/uploads/2017/06/SwordSlasher.png',
+        price:'1500',
+        type:'Monster'
+      },
+       {
+        name:'Slot Machine',
+        url:'https://vignette.wikia.nocookie.net/yugioh/images/1/1b/SlotMachine-LCJW-EN-C-1E.png/revision/latest?cb=20131013120951',
+        price:'1000',
+        type:'Monster'
+      },
+        {
+        name:'Skull Stalker',
+        url:'https://vignette.wikia.nocookie.net/yugioh/images/8/8e/SkullStalker-LCJW-EN-C-1E.png/revision/latest?cb=20131011065527',
+        price:'900',
+        type:'Monster'
+      },
+        {
+        name:'Saggi Dark Clown',
+        url:'http://p1.i.ntere.st/add5d53cba82d5955f0e1ffc22f9e5af_480.jpg',
         price:'1500',
         type:'Monster'
       }
@@ -55,5 +73,8 @@ export default {
 img{
   height: 300px;
   width: 200px;
+}
+h4{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 </style>
