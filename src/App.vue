@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-      <nav>
-      <div class="container">
-        <ul class="nav__left">
-
-          <!-- Navigation Links -->
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/admin">Admin</router-link></li>
-          <li><router-link to="/cart">Cart</router-link></li>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Yugioh Store</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><router-link class="nav-link" to="/">Home</router-link></li>
+          <li class="nav-item active"><router-link class="nav-link" to="/admin">Cart</router-link></li>
+          <li class="nav-item active"><router-link class="nav-link" to="/cart">Admin</router-link></li>        
         </ul>
       </div>
     </nav>
-    <router-view/>
+  <router-view></router-view>  
   </div>
 </template>
 
